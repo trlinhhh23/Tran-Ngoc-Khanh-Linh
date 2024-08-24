@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Anton&family=Phudu:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="contact.css">
+        <link rel="icon" href="favicon.ico" type="image/x-icon">
+        <title>Contact - Khanh Linh </title>
+    </head>
+
+    <body>
+        <div id="preloader"><span class="loader"></span></div>
+        <div id="menu-mobile" class="mobile">
+            <ul>
+                
+                <li class="d-none"><a href="about.html" data-vi=" VỀ VY"
+                        data-en="ABOUT">ABOUT</a></li>
+                <li class="d-none"><a href="project.html" data-vi=" DỰ ÁN"
+                        data-en="PROJECT"">PROJECT</a></li>
+                <li class=" d-none"><a href="contact.html" data-vi=" LIÊN HỆ"
+                        data-en="CONTACT"">CONTACT</a></li>
+            </ul>
+
+            <div class=" language d-none">
+                <div id="box-vi" class="text-in-box box"> Vie</div>
+                <div id="box-en" class="text-in-box box box-fill"> Eng </div>
+            </div>
+        </div>
+        <header>
+            <div class="desktop header-container">
+                <hr>
+                <div class="header-left ">
+                    <span class="home-btn">
+                        <img src="logo.png" style="width: 50px; height: 50px;">
+                    </span>
+                    <span id="vie">VIE</span>
+                    <span id="dark-btn">LIGHT</span>
+                </div>
+                <div class="header-right">
+                    <span><a href="contact.html" data-vi=" LIÊN HỆ"
+                            data-en="CONTACT">CONTACT</a></span>
+                    <span><a href="project.html" data-vi=" DỰ ÁN"
+                            data-en="PROJECT">PROJECT</a></span>
+                    <span><a href="about.html" data-vi=" VỀ TÔI"
+                            data-en="ABOUT">ABOUT</a></span>
+                </div>
+            </div>
+
+            <div class="mobile header-container">
+                <hr style="color: black;">
+                <div class="header-left">
+                    <span class="home-btn">
+                        <img src="logo.png" style="width: 50px; height: 50px;">
+                    </span>
+                </div>
+                <div class="header-right">
+                    <input type="checkbox" name="check-menu" id="check-menu"
+                        hidden>
+                    <label id="hamburger" for="check-menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </label>
+                </div>
+            </div>
+
+        </header>
+        <div class="container m-0">
+            <section class="row align-items-center justify-content-center">
+                <div class="d-grid gap-5 ">
+
+                    <div class="row ">
+                        <div class="text-center asset-blur-double ">
+                            <img src="asset blur double.png" style="height: 450px; width: 500px;">
+                            <h1>CONTACT</h1>
+                        </div>
+                    </div>
+                    <div style=" margin: 0 auto;"
+                        class="row row-cols-md-2 row-cols-lg-4 g-5 g-lg-5 justify-content-center align-items-center w75 ">
+                        <div class="text-center p-0">
+                            <button class="btn-contact"
+                                onclick="openMailLink()">Mail</button>
+                        </div>
+                        <div class="text-center p-0">
+                            <button class="btn-contact"
+                                onclick="openInstagramLink()">Instagram</button>
+                        </div>
+                        <div class="text-center p-0">
+                            <button class="btn-contact"
+                                onclick="openLKLink()">Linkedin</button>
+                        </div>
+                        <div class="text-center p-0">
+                            <button class="btn-contact"
+                                onclick="openFBLink()">Facebook</button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <footer>
+            <div class=" row justify-content-between m-0">
+                <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                    <p class="text-start"
+                        style="display: flex; align-items: center;">
+                        2024&nbsp;&nbsp;
+                        <svg xmlns="http://www.w3.org/2000/svg" width="9"
+                            height="9" viewBox="0 0 9 9" fill="none">
+                            <circle cx="4.5" cy="4.5" r="4.5" fill="#D9D9D9" />
+                        </svg>
+                        Trần Ngọc Khánh Linh
+                    </p>
+
+                </div>
+                <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                    <p class="text-end">Created by Khánh Linh</p>
+                </div>
+            </div>
+        </footer>
+    </body>
+
+    <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+    <script src="contact.js"></script>
+
+</html>

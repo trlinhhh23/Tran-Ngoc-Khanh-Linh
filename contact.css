@@ -1,0 +1,126 @@
+.asset-blur-double svg {
+    width: 18.75rem;
+    height: 10.25rem;
+}
+
+section {
+    height: 95vh;
+}
+h1 {
+    color: #fff;
+    position: absolute;
+    top: 35%;
+    left: 40%;
+    font-size: 100px;
+}
+h1:hover {
+    top: 30%;
+    left: 35%;
+    font-size: 130px;
+  }
+  button img{
+   height: 50px;
+
+  }
+@keyframes blinkAnimation {
+    0% {
+        transform: translateY(-100%);
+    }
+
+    8.4% {
+        transform: translateY(0);
+    }
+
+    16.65% {
+        transform: translateY(-100%);
+    }
+
+    33.33% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-100%);
+    }
+
+    66.66% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(-100%);
+    }
+
+    77% {
+        transform: translateY(0%);
+    }
+
+    80% {
+        transform: translateY(-100%);
+    }
+
+    82% {
+        transform: translateY(0%);
+    }
+
+    88% {
+        transform: translateY(-100%);
+    }
+
+    100% {
+        transform: translateY(-100%);
+    }
+}
+
+#blink-1 {
+    animation: blinkAnimation 8s infinite ease-out;
+}
+
+.btn-contact {
+    width: 20rem;
+    height: 5rem;
+    text-align: center;
+    font-family: Phudu;
+    font-size: 2.1875rem;
+    font-style: normal;
+    font-weight: 400;
+    background-image: url('contact.png'); 
+    background-size: cover ;
+    border: none;
+}
+
+
+
+.w75 {
+    width: 90%;
+}
+
+@media (max-width: 991px) {
+    .w75 {
+        width: 75%;
+        margin-top: 3rem;
+    }
+}
+
+@media (max-width: 767px) {
+    .w75 {
+        width: auto;
+    }
+
+    .container {
+        margin-top: 2rem !important;
+    }
+
+    .btn-contact {
+        width: 12.3125rem;
+        height: 3.4375rem !important;
+    }
+}
+
+
+
+@media (max-width: 380px) {
+    .container {
+        margin-top: 4rem !important;
+    }
+}
