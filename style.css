@@ -564,11 +564,6 @@ header {
 
 }
 
-section {
-    height: 100vh;
-    overflow: hidden;
-}
-
 
 footer {
     margin-bottom: 1rem;

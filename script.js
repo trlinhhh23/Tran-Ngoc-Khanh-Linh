@@ -1,12 +1,5 @@
 
 
-var irises = document.getElementById('irises');
-document.onmousemove = function (e) {
-    var x = (e.clientX / window.innerWidth * 100) * 22 / 100 + "%";
-    var y = (e.clientY / window.innerHeight * 100) * 35 / 100 + "%";
-    irises.style.transform = "translate(" + x + "," + y + ")";
-}
-
 function checkMenuVisibility() {
     // Kiểm tra nếu phần tử có id là "check-menu" được chọn
     if ($("#check-menu").is(":checked")) {
