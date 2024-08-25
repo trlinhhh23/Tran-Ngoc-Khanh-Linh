@@ -112,51 +112,51 @@ $(document).ready(function () {
         $('#preloader').addClass('hide-preloader');
     }, 100);
 
-    $("#dark-btn").click(function () {
-        // Lấy root element
-        var root = document.documentElement;
-        var color = root.style.getPropertyValue("--white");
-        // Toggle giá trị variables
-        if (color === "#F1EFE4") {
-            root.style.setProperty("--white", "#12110D");
-            root.style.setProperty("--black", "#F1EFE4");
-            $('#octopus-start').attr('src', 'img/octopus-white.gif');
-            $('#octopus-end').attr('src', 'img/octopus-end-white.gif');
-            $('#octopus-fly').css('background', 'url(img/octopus-fly-white.gif) 62% 60% no-repeat');
-            $('#dark-btn').html('DARK');
-        } else {
-            root.style.setProperty("--white", "#F1EFE4");
-            root.style.setProperty("--black", "#12110D"); $('#dark-btn').html('LIGHT');
-            $('#octopus-start').attr('src', 'img/octopus.gif');
-            $('#octopus-end').attr('src', 'img/octopus-end.gif');
-            $('#octopus-fly').css('background', 'url(img/octopus-fly.gif) 62% 60% no-repeat');
-        }
-    });
-    $("#box-light").click(function () {  // Lấy root element
-        var root = document.documentElement;
-        var color = root.style.getPropertyValue("--white");
-        root.style.setProperty("--white", "#12110D");
-        root.style.setProperty("--black", "#F1EFE4");
-        console.log("box light clicked");
-        root.style.setProperty("--white", "#F1EFE4");
-        root.style.setProperty("--black", "#12110D"); $('#dark-btn').html('LIGHT');
-        $('#octopus-start').attr('src', 'img/octopus.gif');
-        $('#octopus-end').attr('src', 'img/octopus-end.gif');
-        $('#octopus-fly').css('background', 'url(img/octopus-fly.gif) 62% 60% no-repeat');
+    // $("#dark-btn").click(function () {
+    //     // Lấy root element
+    //     var root = document.documentElement;
+    //     var color = root.style.getPropertyValue("--white");
+    //     // Toggle giá trị variables
+    //     if (color === "#F1EFE4") {
+    //         root.style.setProperty("--white", "#12110D");
+    //         root.style.setProperty("--black", "#F1EFE4");
+    //         $('#octopus-start').attr('src', 'img/octopus-white.gif');
+    //         $('#octopus-end').attr('src', 'img/octopus-end-white.gif');
+    //         $('#octopus-fly').css('background', 'url(img/octopus-fly-white.gif) 62% 60% no-repeat');
+    //         $('#dark-btn').html('DARK');
+    //     } else {
+    //         root.style.setProperty("--white", "#F1EFE4");
+    //         root.style.setProperty("--black", "#12110D"); $('#dark-btn').html('LIGHT');
+    //         $('#octopus-start').attr('src', 'img/octopus.gif');
+    //         $('#octopus-end').attr('src', 'img/octopus-end.gif');
+    //         $('#octopus-fly').css('background', 'url(img/octopus-fly.gif) 62% 60% no-repeat');
+    //     }
+    // });
+    // $("#box-light").click(function () {  // Lấy root element
+    //     var root = document.documentElement;
+    //     var color = root.style.getPropertyValue("--white");
+    //     root.style.setProperty("--white", "#12110D");
+    //     root.style.setProperty("--black", "#F1EFE4");
+    //     console.log("box light clicked");
+    //     root.style.setProperty("--white", "#F1EFE4");
+    //     root.style.setProperty("--black", "#12110D"); $('#dark-btn').html('LIGHT');
+    //     $('#octopus-start').attr('src', 'img/octopus.gif');
+    //     $('#octopus-end').attr('src', 'img/octopus-end.gif');
+    //     $('#octopus-fly').css('background', 'url(img/octopus-fly.gif) 62% 60% no-repeat');
 
-    });
-    $("#box-dark").click(function () {// Lấy root element
-        var root = document.documentElement;
-        var color = root.style.getPropertyValue("--white");
-        console.log("box light clicked");
-        root.style.setProperty("--white", "#12110D");
-        root.style.setProperty("--black", "#F1EFE4");
-        $('#octopus-start').attr('src', 'img/octopus-white.gif');
-        $('#octopus-end').attr('src', 'img/octopus-end-white.gif');
-        $('#octopus-fly').css('background', 'url(img/octopus-fly-white.gif) 62% 60% no-repeat');
-        $('#dark-btn').html('DARK');
+    // });
+    // $("#box-dark").click(function () {// Lấy root element
+    //     var root = document.documentElement;
+    //     var color = root.style.getPropertyValue("--white");
+    //     console.log("box light clicked");
+    //     root.style.setProperty("--white", "#12110D");
+    //     root.style.setProperty("--black", "#F1EFE4");
+    //     $('#octopus-start').attr('src', 'img/octopus-white.gif');
+    //     $('#octopus-end').attr('src', 'img/octopus-end-white.gif');
+    //     $('#octopus-fly').css('background', 'url(img/octopus-fly-white.gif) 62% 60% no-repeat');
+    //     $('#dark-btn').html('DARK');
 
-    });
+    // });
 
 
     var language = "en";

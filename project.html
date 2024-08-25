@@ -3,15 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tran Ngoc Khanh Linh /title>
+    <title>Tran Ngoc Khanh Linh </title>
+     <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+            crossorigin="anonymous">
 
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="project.css">
 </head>
 <body>
-    <div id="phone-gap"></div>
     <nav>
         <ul>
-
+                
             <li class="d-none"><a href="about.html" data-vi=" VỀ VY"
                     data-en="ABOUT">ABOUT</a></li>
             <li class="d-none"><a href="project.html" data-vi=" DỰ ÁN"
@@ -20,116 +25,109 @@
                     data-en="CONTACT">CONTACT</a></li>
         </ul>
 
+
         <div class=" language d-none">
             <div id="box-vi" class="text-in-box box"> Vie</div>
             <div id="box-en" class="text-in-box box box-fill"> Eng </div>
         </div>
-        <div class=" language d-none">
-            <div id="box-dark" class="text-in-box box"> Light</div>
-            <div id="box-light" class="text-in-box box box-fill"> Dark
-            </div>
-        </div>
-    </div>
+    </nav>
     <header>
         <div class="desktop header-container">
-            <hr>
-            <div class="header-left ">
+            <div class="header-left text-dark">
                 <span class="home-btn">
                     <img src="logo.png" style="width: 50px; height: 50px;">
-   
                 </span>
                 <span id="vie">VIE</span>
-                <span id="dark-btn">LIGHT</span>
             </div>
             <div class="header-right">
-                <span><a href="contact.html" data-vi=" LIÊN HỆ"
+                <span class="text-dark"><a href="contact.html" data-vi=" LIÊN HỆ"
                         data-en="CONTACT">CONTACT</a></span>
-                <span><a href="project.html" data-vi=" DỰ ÁN"
+                <span class="text-dark"><a href="project.html" data-vi=" DỰ ÁN"
                         data-en="PROJECT">PROJECT</a></span>
-                <span><a href="about.html" data-vi=" VỀ LINH"
+                <span class="text-dark"><a href="about.html" data-vi=" VỀ TÔI"
                         data-en="ABOUT">ABOUT</a></span>
             </div>
+        </div>
 
-    <img id="bg-one" src="images/background/1-portfolio.jpg">
-    <img id="bg-two" src="images/background/2-portfolio.jpg">
-    <img id="bg-three" src="images/background/3-portfolio.jpg">
-
-    <section id="page-one">
-        <h3>Explore my projects <br>by tags</h3>
-        <ul class="body-text" id="hashtags">
-            <li> <a class="hashtags-items" href="#iconography">#iconography</a> </li>
-            <li> <a class="hashtags-items" href="#interactive-infographic">#interactive-infographic</a> </li>
-            <li> <a class="hashtags-items" href="#web-design">#web-design</a> </li>
-            <li> <a class="hashtags-items" href="#photobook">#photobook</a> </li>
-            <li> <a class="hashtags-items" href="#photography">#photography</a> </li>
-            <li> <a class="hashtags-items" href="#digital-video">#digital-video</a> </li>
-        </ul>
-    </section>
-
-    <h1 id="heading-nobr">Portfolio</h1>
-    <h1 id="heading-br">Port<br>folio</h1>
-
-    
-    <section id="page-two">
-        <div id="grid-layout">
-            <div class="cards" id="iconography">
-                <img class="cover" id="cover-one" src="images/projects/cover-page/1.png">
-                <h4>#iconorgraphy</h4>
-                    <div class="description">
-                    <h2><a class="gallery-links" href="p-iconography.html">the TEMPTATION </a></h2>
-                    <p class="body-text">The icon set symbolizes deadly sins<br>and human corruption.</p>
-                </div>
+        <div class="mobile header-container">
+            <hr style="color: black;">
+            <div class="header-left">
+                <span class="home-btn">
+                    <img src="logo.png" style="width: 50px; height: 50px;">
+                </span>
             </div>
-
-            <div class="cards" id="interactive-infographic">
-                <img class="cover" id="cover-two" src="images/projects/cover-page/2.png">
-                <h4>#interactive_infographic</h4>
-                    <div class="description">
-                    <h2><a class="gallery-links" href="p-interactive-infographic.html">A Kite Tutorial</a></h2>
-                    <p class="body-text">"The wind does not hinder,<br>but helps fly higher."</p>
-                </div>
-            </div>
-
-            <div class="cards" id="web-design">
-                <img class="cover" id="cover-three" src="images/projects/cover-page/3.png">
-                <h4>#web-design</h4>
-                <div class="description">
-                    <h2><a class="gallery-links" href="p-web-design.html">OFF DA HOOK</a></h2>
-                    <p class="body-text">The website of "OFF DA HOOK",<br>the music concert for hiphop lovers</p>
-                </div>
-            </div>
-
-            <div class="cards" id="photobook">
-                <img class="cover" id="cover-four" src="images/projects/cover-page/4.png">
-                <h4>#photobook</h4>
-                <div class="description">
-                    <h2><a class="gallery-links" href="p-photobook.html">Yearbook</a></h2>
-                    <p class="body-text">Unforgettable memories of<br>school days.</p>
-                </div>
-            </div>
-
-            <div class="cards" id="photography">
-                <img class="cover" id="cover-five" src="images/projects/cover-page/5.png">
-                <h4>#photography</h4>
-                <div class="description">
-                    <h2><a class="gallery-links" href="p-photography.html">Daily Capture</a></h2>
-                    <p class="body-text">What's your photo for today?</p>
-                </div>
-            </div>
-
-            <div class="cards" id="digital-video">
-                <img class="cover" id="cover-six" src="images/projects/cover-page/6.png">
-                <h4>#digital-video</h4>
-                <div class="description">
-                    <h2><a class="gallery-links" href="p-digital-video.html">A Tearing Rush</a></h2>
-                    <p class="body-text">A girl who runs after life but forgets<br>her own true happiness</p>
-                </div>
+            <div class="header-right">
+                <input type="checkbox" name="check-menu" id="check-menu"
+                    hidden>
+                <label id="hamburger" for="check-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </div>
         </div>
-    </section>
 
-    <footer>    
-        <p>&copy; 2023 Nguyen Bao Tran. All rights reserved.</p>
+    </header>
+
+    <div class="container m-0 bg-light">
+        <section class="row align-items-center justify-content-center">
+            <div class="row ">
+                <div class="text-center asset-blur-double ">
+                    <img src="asset blur 1.png" style="height: 450px; width: 500px;">
+                    <h1>Project</h1>
+                </div>
+            </div>
+            <div class="d-flex flex-column">
+
+                <div class="photos">
+                    <div class="text-center">
+                        <img src="icon.jpg" style="height: 450px; width: 500px;">
+                        <h2>Icon</h2>
+                    </div>
+                </div>
+                <div class="photos">
+                    <div class="text-center">
+                        <img src="/photography/webdesign.jpg" style="height: 450px; width: 500px;">
+                        <h2>Icon</h2>
+                    </div>
+                </div>
+                <div class="photos">
+                    <div class="text-center">
+                        <img src="/photography/kite.jpg" style="height: 450px; width: 500px;">
+                        <h2>Web Design</h2>
+                    </div>
+                </div>
+                <div class="photos">
+                    <div class="text-center">
+                        <img src="/photography/bwhouse.jpg" style="height: 450px; width: 500px;">
+                        <h2>Photography</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <footer>
+        <div class=" row justify-content-between m-0">
+            <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                <p class="text-start"
+                    style="display: flex; align-items: center;">
+                    2024&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9"
+                        height="9" viewBox="0 0 9 9" fill="none">
+                        <circle cx="4.5" cy="4.5" r="4.5" fill="#D9D9D9" />
+                    </svg>
+                    Trần Ngọc Khánh Linh
+                </p>
+
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                <p class="text-end">Created by Khánh Linh</p>
+            </div>
+        </div>
     </footer>
 </body>
+<script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"></script>
 </html>
