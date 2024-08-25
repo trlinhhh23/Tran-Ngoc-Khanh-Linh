@@ -1,129 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link
-            href="https://fonts.googleapis.com/css2?family=Afacad:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Anton&family=Phudu:wght@300;400;500;600;700;800;900&display=swap"
-            rel="stylesheet">
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
-            crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-        <link rel="stylesheet" href="about.css">
-        <link rel="icon" href="favicon.ico" type="image/x-icon">
-        <title>ABOUT-Tran Ngoc Khanh Linh </title>
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 
-    <body>
-        <div class="background"></div>
-        <div id="preloader"><span class="loader"></span></div>
-        <div id="menu-mobile" class="mobile">
-            <ul>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <title>ABOUT-Tran Ngoc Khanh Linh </title>
+</head>
 
-                <li class="d-none"><a href="about.html" data-vi=" VỀ VY"
-                        data-en="ABOUT">ABOUT</a></li>
-                <li class="d-none"><a href="project.html" data-vi=" DỰ ÁN"
-                        data-en="PROJECT">PROJECT</a></li>
-                <li class=" d-none"><a href="contact.html" data-vi=" LIÊN HỆ"
-                        data-en="CONTACT">CONTACT</a></li>
-            </ul>
+<body>
+    <div class="background"></div>
+    <div id="preloader"><span class="loader"></span></div>
+    <div id="menu-mobile" class="mobile">
+        <ul>
+            <li class="d-none text-dark"><a href="about.html" data-vi=" VỀ VY" data-en="ABOUT">ABOUT</a></li>
+            <li class="d-none text-dark"><a href="project.html" data-vi=" DỰ ÁN" data-en="PROJECT">PROJECT</a></li>
+            <li class="d-none text-dark"><a href="contact.html" data-vi=" LIÊN HỆ" data-en="CONTACT">CONTACT</a></li>
+        </ul>
 
-            <div class=" language d-none">
-                <div id="box-vi" class="text-in-box box"> Vie</div>
-                <div id="box-en" class="text-in-box box box-fill"> Eng </div>
+        <div class=" language d-none">
+            <div id="box-vi" class="text-in-box box"> Vie</div>
+            <div id="box-en" class="text-in-box box box-fill"> Eng </div>
+        </div>
+    </div>
+    <header>
+        <div class="desktop header-container">
+            <hr>
+            <div class="header-left ">
+                <span class="home-btn">
+                    <img src="logo.png" style="width: 50px; height: 50px;">
+
+                </span>
+                <span class="text-dark" id="vie">VIE</span>
             </div>
-            <div class=" language d-none">
-                <div id="box-dark" class="text-in-box box"> Light</div>
-                <div id="box-light" class="text-in-box box box-fill"> Dark
-                </div>
+            <div class="header-right">
+                <span class="text-dark"><a href="contact.html" data-vi=" LIÊN HỆ" data-en="CONTACT">CONTACT</a></span>
+                <span class="text-dark"><a href="project.html" data-vi=" DỰ ÁN" data-en="PROJECT">PROJECT</a></span>
+                <span class="text-dark"><a href="about.html" data-vi=" VỀ LINH" data-en="ABOUT">ABOUT</a></span>
             </div>
         </div>
-        <header>
-            <div class="desktop header-container">
-                <hr>
-                <div class="header-left ">
-                    <span class="home-btn">
-                        <img src="logo.png" style="width: 50px; height: 50px;">
-       
-                    </span>
-                    <span id="vie">VIE</span>
-                    <span id="dark-btn">LIGHT</span>
-                </div>
-                <div class="header-right">
-                    <span><a href="contact.html" data-vi=" LIÊN HỆ"
-                            data-en="CONTACT">CONTACT</a></span>
-                    <span><a href="project.html" data-vi=" DỰ ÁN"
-                            data-en="PROJECT">PROJECT</a></span>
-                    <span><a href="about.html" data-vi=" VỀ LINH"
-                            data-en="ABOUT">ABOUT</a></span>
-                </div>
+
+        <div class="mobile header-container">
+            <hr>
+            <div class="header-left">
+                <span class="h-100 home-btn">
+                    <img src="logo.png" style="width: 50px; height: 50px;">
+
+                </span>
             </div>
-
-            <div class="mobile header-container">
-                <hr>
-                <div class="header-left">
-                    <span class="h-100 home-btn">
-                        <svg xmlns="http://www.w3.org/2000/svg" id="eye-mobile"
-                            width="64" height="35" viewBox="0 0 64 35"
-                            fill="none">
-                            <g clip-path="url(#clip0_171_22)">
-                                <path class="yellow-fill" id="irises"
-                                    d="M32.0016 28.6956C38.2063 28.6956 43.2363 23.6831 43.2363 17.4999C43.2363 11.3167 38.2063 6.3042 32.0016 6.3042C25.7968 6.3042 20.7668 11.3167 20.7668 17.4999C20.7668 23.6831 25.7968 28.6956 32.0016 28.6956Z"
-                                    fill="#F2BC00" clip-path="url(#irises)" />
-                                <path class="red-fill"
-                                    d="M32.0016 35C23.0834 35 14.1684 31.6161 7.38011 24.8513L0 17.5L7.37695 10.1487C20.9536 -3.38078 43.0464 -3.38078 56.6231 10.1487L64 17.5L56.6231 24.8513C49.8347 31.6161 40.9166 35 32.0016 35ZM9.6144 22.6217C21.9568 34.9212 42.0401 34.9212 54.3824 22.6217L59.5219 17.5L54.3824 12.3784C42.0432 0.0757008 21.9599 0.078854 9.6144 12.3784L4.47491 17.5L9.6144 22.6217Z"
-                                    fill="#EB4F25" />
-
-                                <path class="red-fill"
-                                    d="M2.39563 17.6577L8.4972 11.5773C21.4789 -1.35926 42.5242 -1.35926 55.5027 11.5773L61.6043 17.6577H2.39563Z"
-                                    fill="#EB4F25" />
-
-                            </g>
-                            <defs>
-                                <clippath id="clip0_171_22">
-                                    <path
-                                        d="M32.0016 35C23.0834 35 14.1684 31.6159 7.38011 24.8509L0 17.4992L7.37695 10.1476C20.9536 -3.38252 43.0464 -3.38252 56.6231 10.1476L64 17.4992L56.6231 24.8509C49.8347 31.6159 40.9166 35 32.0016 35Z"
-                                        fill="#0A0C39" />
-                                    <path
-                                        d="M32.0016 35C23.0834 35 14.1684 31.6159 7.38011 24.8509L0 17.4992L7.37695 10.1476C20.9536 -3.38252 43.0464 -3.38252 56.6231 10.1476L64 17.4992L56.6231 24.8509C49.8347 31.6159 40.9166 35 32.0016 35Z"
-                                        fill="#0A0C39" />
-                                </clippath>
-                            </defs>
-                            />
-                        </svg>
-                    </span>
-                </div>
-                <div class="header-right">
-                    <input type="checkbox" name="check-menu" id="check-menu"
-                        hidden>
-                    <label id="hamburger" for="check-menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </label>
-                </div>
+            <div class="header-right">
+                <input type="checkbox" name="check-menu" id="check-menu" hidden>
+                <label id="hamburger" for="check-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
             </div>
+        </div>
 
-        </header>
-        <div class="container m-0">
-            <section class=" s1 d-flex align-items-end p-5">
-                <div class="row m-0 p-0">
-                    <div class="col-lg-7 row p-0 g-0">
-                        <div
-                            class="row h-50 d-flex align-items-center justify-content-center p-0 m-0">
-                            <h1 class="main-text" data-vi="TRẦM THẢO VY"
-                                data-en="TRAN NGOC KHANH LINH">TRAN NGOC KHANH LINH</h1>
-                        </div>
-                        <div class="row h-50 d-flex align-items-end p-0 m-0">
-                            <p class="descript"
-                                data-vi="Xin chào, mình là Vy, hiện đang sống tại Thành phố Hồ Chí Minh, Việt Nam và đang theo học thiết kế tại Đại học RMIT. Mình vẫn nhận các dự án ngắn hạn, dự án part-time hoặc công việc từ xa. <br><br>Các thiết kế của mình thường thể hiện ý tưởng thông qua góc nhìn và trải nghiệm cá nhân của mình với mọi thứ xung quanh. Dù thỉnh thoảng mấy ý tưởng đó có hơi nhảm nhí, kỳ lạ hoặc thậm chí ngớ ngẩn nhưng chúng luôn là động lực cho mình phát triển (và biến thiết kế thành thói quen, mặc dù mình cũng không chắc đó làm vậy có ổn không nữa =] ) <br> <br>Hãy liên hệ với mình bất cứ lúc nào nếu có nhu cầu nhé!"
-                                data-en="Hi, I'm Vy, currently
+    </header>
+    <div class="container">
+        <section class="d-flex align-items-end p-5">
+            <div class="row m-0 p-0">
+                <div class="col-lg-7 row p-0 g-0 ">
+                    <div class="row h-50 d-flex align-items-center justify-content-center p-0 m-0">
+                        <h1 class="main-text text-dark" data-vi="TRẦM THẢO VY" data-en="TRAN NGOC KHANH LINH">TRAN NGOC
+                            KHANH LINH</h1>
+                    </div>
+                    <div class="row h-50 d-flex align-items-end p-0 m-0">
+                        <p class="descript text-dark"
+                            data-vi="Xin chào, mình là Vy, hiện đang sống tại Thành phố Hồ Chí Minh, Việt Nam và đang theo học thiết kế tại Đại học RMIT. Mình vẫn nhận các dự án ngắn hạn, dự án part-time hoặc công việc từ xa. <br><br>Các thiết kế của mình thường thể hiện ý tưởng thông qua góc nhìn và trải nghiệm cá nhân của mình với mọi thứ xung quanh. Dù thỉnh thoảng mấy ý tưởng đó có hơi nhảm nhí, kỳ lạ hoặc thậm chí ngớ ngẩn nhưng chúng luôn là động lực cho mình phát triển (và biến thiết kế thành thói quen, mặc dù mình cũng không chắc đó làm vậy có ổn không nữa =] ) <br> <br>Hãy liên hệ với mình bất cứ lúc nào nếu có nhu cầu nhé!"
+                            data-en="Hi, I'm Vy, currently
                                 residing in Ho Chi Minh City, Vietnam, and
                                 pursuing a degree in Digital Media at RMIT
                                 University. I'm enthusiastic about
@@ -140,35 +95,35 @@
                                 <br> <br>
                                 Feel free to reach out to me anytime if
                                 there's a need!">Hi, I'm Vy, currently
-                                residing in Ho Chi Minh City, Vietnam, and
-                                pursuing a degree in Digital Media at RMIT
-                                University. I'm enthusiastic about
-                                participating in remote activities through
-                                online exchanges or in HCM city.
-                                <br> <br>
-                                I often express my ideas through my
-                                perspective and personal experiences with
-                                everything around me. Although my ideas may
-                                sometimes seem wild, quirky and even silly,
-                                they always serve as motivation for me (and
-                                turn design into a habit, although I'm not
-                                sure if that's a good thing or not =] ).
-                                <br> <br>
-                                Feel free to reach out to me anytime if
-                                there's a need!
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-5 row  g-0">
-                        <div class="avatar">
-                        </div>
+                            residing in Ho Chi Minh City, Vietnam, and
+                            pursuing a degree in Digital Media at RMIT
+                            University. I'm enthusiastic about
+                            participating in remote activities through
+                            online exchanges or in HCM city.
+                            <br> <br>
+                            I often express my ideas through my
+                            perspective and personal experiences with
+                            everything around me. Although my ideas may
+                            sometimes seem wild, quirky and even silly,
+                            they always serve as motivation for me (and
+                            turn design into a habit, although I'm not
+                            sure if that's a good thing or not =] ).
+                            <br> <br>
+                            Feel free to reach out to me anytime if
+                            there's a need!
+                        </p>
                     </div>
                 </div>
-            </section>
-            <section class="s2">
-                <p class="des-after"
-                    data-vi="Xin chào, mình là Vy, hiện đang sống tại Thành phố Hồ Chí Minh, Việt Nam và đang theo học thiết kế tại Đại học RMIT. Mình vẫn nhận các dự án ngắn hạn, dự án part-time hoặc công việc từ xa. <br><br>Các thiết kế của mình thường thể hiện ý tưởng thông qua góc nhìn và trải nghiệm cá nhân của mình với mọi thứ xung quanh. Dù thỉnh thoảng mấy ý tưởng đó có hơi nhảm nhí, kỳ lạ hoặc thậm chí ngớ ngẩn nhưng chúng luôn là động lực cho mình phát triển (và biến thiết kế thành thói quen, mặc dù mình cũng không chắc đó làm vậy có ổn không nữa =] ) <br> <br>Hãy liên hệ với mình bất cứ lúc nào nếu có nhu cầu nhé!"
-                    data-en="Hi, I'm Vy, currently
+                <div class="col-lg-5 row  g-0">
+                    <div class="avatar">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <p class="des-after text-dark"
+                data-vi="Xin chào, mình là Vy, hiện đang sống tại Thành phố Hồ Chí Minh, Việt Nam và đang theo học thiết kế tại Đại học RMIT. Mình vẫn nhận các dự án ngắn hạn, dự án part-time hoặc công việc từ xa. <br><br>Các thiết kế của mình thường thể hiện ý tưởng thông qua góc nhìn và trải nghiệm cá nhân của mình với mọi thứ xung quanh. Dù thỉnh thoảng mấy ý tưởng đó có hơi nhảm nhí, kỳ lạ hoặc thậm chí ngớ ngẩn nhưng chúng luôn là động lực cho mình phát triển (và biến thiết kế thành thói quen, mặc dù mình cũng không chắc đó làm vậy có ổn không nữa =] ) <br> <br>Hãy liên hệ với mình bất cứ lúc nào nếu có nhu cầu nhé!"
+                data-en="Hi, I'm Vy, currently
                                 residing in Ho Chi Minh City, Vietnam, and
                                 pursuing a degree in Digital Media at RMIT
                                 University. I'm enthusiastic about
@@ -185,101 +140,82 @@
                                 <br> <br>
                                 Feel free to reach out to me anytime if
                                 there's a need!">Hi, I'm Vy, currently residing
-                    in Ho Chi
-                    Minh City, Vietnam, and pursuing a degree in Digital Media
-                    at RMIT University. I'm enthusiastic about participating in
-                    remote activities through online exchanges or in HCM city.
-                    <br><br>
-                    I often express my ideas through my perspective and personal
-                    experiences with everything around me. Although my ideas may
-                    sometimes seem wild, quirky and even silly, they always
-                    serve as motivation for me (and turn design into a habit,
-                    although I'm not sure if that's a good thing or not =] ).
-                    <br><br>
-                    Feel free to reach out to me anytime if there's a need!
-                </p>
-                <div class="d-grid mt-5">
-                    <div class="row p-5 m-0">
-                        <div class="col-md row">
-                            <h2 class="cate m-0" data-vi="Giáo dục"
-                                data-en="EDUCATION">EDUCATION</h2>
-                        </div>
-                        <div class="col-md row gx-5 ">
-                            <div class="col hiiu  hiiu-first">
-                                <p class="text-end pe-5 tee m-0"
-                                    data-vi="Hiện tại"
-                                    data-en="Current">Current</p>
-                            </div>
-                            <div class="col hiiu hiiu-last">
-                                <p class="text-start ps-5 tee m-0"
-                                    data-vi="Đại học RMIT"
-                                    data-en="RMIT University">RMIT
-                                    University</p>
-                            </div>
-                        </div>
+                in Ho Chi
+                Minh City, Vietnam, and pursuing a degree in Digital Media
+                at RMIT University. I'm enthusiastic about participating in
+                remote activities through online exchanges or in HCM city.
+                <br><br>
+                I often express my ideas through my perspective and personal
+                experiences with everything around me. Although my ideas may
+                sometimes seem wild, quirky and even silly, they always
+                serve as motivation for me (and turn design into a habit,
+                although I'm not sure if that's a good thing or not =] ).
+                <br><br>
+                Feel free to reach out to me anytime if there's a need!
+            </p>
+            <div class="d-flex flex-column align-items-center justify-content-center">
+                <div class="row photos justify-content-around m-2">
+                    <div class="col-4 position-relative">
+                        <img src="ps.png" style="position: relative; z-index: 2; height: 50px; width: 50px;">
+                        <img src="asset blur 2.png" class="position-absolute"
+                        style="height: 300px; width: 350px; z-index: 0; right: 500px; top: -50px;">
                     </div>
-                    <div class="row p-5 m-0">
-                        <div class="col-sm-5 col-md row">
-                            <h2 class="cate m-0" data-vi="Kĩ năng phần mềm"
-                                data-en="SOFTWARE SKILL">SOFTWARE SKILL</h2>
-                        </div>
-                        <div class="col-sm-7 col-md row gx-5 ">
-                            <div class="col hiiu hiiu-first ">
-                                <p class="text-end pe-5 tee m-0 mb-4"><img src="pts.svg" alt="PTS" srcset="pts.svg 1x, pts-2x.svg 2x"></p>
-                                <p class="text-end pe-5 tee m-0 mb-4"><img src="ai.svg" alt="AI" srcset="ai.svg 1x, ai-2x.svg 2x"></p>
-                                <p class="text-end pe-5 tee m-0 mb-4"><img src="lrc.svg" alt="LRC" srcset="lrc.svg 1x, lrc-2x.svg 2x"></p>
-                                <p class="text-end pe-5 tee m-0 mb-4"><img src="figma.svg" alt="Figma" srcset="figma.svg 1x, figma-2x.svg 2x"></p>
-                            </div>
-                        </div>
-                            <div class="col hiiu hiiu-last">
-                                <p
-                                    class="text-start ps-5 tee m-0 mb-4 h46">Photoshop</p>
-                                <p
-                                    class="text-start ps-5 tee m-0 mb-4 h46">Illustrator</p>
-                                <p
-                                    class="text-start ps-5 tee m-0 mb-4 h46">Lightroom Classic</p>
-                                <p
-                                    class="text-start ps-5 tee m-0 mb-4 h46">Figma</p>
-                            </div>
-                        </div>
+                    <div class="col-8 text-center position-relative">
+                        <h2 style="z-index: 3; ">Photoshop</h2>
                     </div>
                 </div>
-            </section>
-        </div>
-        <div>
-            <img src="asset blur 1.png" alt="assetblur1">
-        </div>
-        <div> 
-            <img src="asset blur 2.png" alt="assetblur 2"></div>   
-
-        <footer>
-            <div class=" row justify-content-between m-0">
-                <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
-                    <p class="text-start"
-                        style="display: flex; align-items: center;">
-                        2024&nbsp;&nbsp;
-                        <svg xmlns="http://www.w3.org/2000/svg" width="9"
-                            height="9" viewBox="0 0 9 9" fill="none">
-                            <circle cx="4.5" cy="4.5" r="4.5" fill="#D9D9D9" />
-                        </svg>
-                        Tran Ngoc Khanh Linh
-                    </p>
-
+                <div class="row photos justify-content-around m-2">
+                    <div class="col-4 position-relative">
+                        <img src="ps.png" style="position: relative; z-index: 2; height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-8 text-center position-relative">
+                        <h2 style="z-index: 3;">Photoshop</h2>
+                    </div>
                 </div>
-                <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
-                    <p class="text-end">Created by Tran Ngoc Khanh Linh</p>
+                <div class="row photos justify-content-around m-2">
+                    <div class="col-4 position-relative">
+                        <img src="ps.png" style="position: relative; z-index: 2; height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-8 text-center position-relative">
+                        <h2 style="z-index: 3;">Photoshop</h2>
+                    </div>
+                </div>
+                <div class="row photos justify-content-around m-2">
+                    <div class="col-4 position-relative">
+                        <img src="ps.png" style="position: relative; z-index: 2; height: 50px; width: 50px;">
+                    </div>
+                    <div class="col-8 text-center position-relative">
+                        <h2 style="z-index: 3;">Photoshop</h2>
+                        <img src="asset blur 2.png" class="position-absolute"
+                            style="height: 450px; width: 500px; z-index: 0; right: -1000px; top: -200px;">
+                    </div>
                 </div>
             </div>
-        </footer>
-    </body>
+    </div>
+    <footer>
+        <div class=" row justify-content-between m-0">
+            <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                <p class="text-start" style="display: flex; align-items: center;">
+                    2024&nbsp;&nbsp;
+                    <svg xmlns="http://www.w3.org/2000/svg" width="9" height="9" viewBox="0 0 9 9" fill="none">
+                        <circle cx="4.5" cy="4.5" r="4.5" fill="#D9D9D9" />
+                    </svg>
+                    Tran Ngoc Khanh Linh
+                </p>
 
-    <script
-        src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
-    <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
-    <script src="script.js"></script>
-    <script src="about.js"></script>
+            </div>
+            <div class="col-lg-2 col-md-4 col-sm-6 col p-0">
+                <p class="text-end">Created by Tran Ngoc Khanh Linh</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script src="script.js"></script>
+<script src="about.js"></script>
 
 </html>

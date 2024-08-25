@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,62 +8,51 @@
 
     <link rel="stylesheet" href="index.css">
 </head>
+
 <body>
-    <header>
-        <div class="desktop header-container">
-            <hr>
-            <div class="header-left">
-                <span class="home-btn"> <img src="logo.png" style="width: 50px; height: 50px;"> </span>
-
-            </div>
-            <div class="header-right">
-                <span><a href="contact.html" data-vi=" LIÊN HỆ"
-                        data-en="CONTACT">CONTACT</a></span>
-                <span><a href="project.html" data-vi=" DỰ ÁN"
-                        data-en="PROJECT">PROJECT</a></span>
-                <span><a href="about.html" data-vi=" VỀ LINH"
-                        data-en="ABOUT">ABOUT</a></span>
-            </div>
-        </div>
-
-        <div class="mobile header-container">
-            <div class="header-left">   
-            </div>
-            <div class="header-right">
-                <input type="checkbox" name="check-menu" id="check-menu"
-                    hidden>
-                <label id="hamburger" for="check-menu">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                </label>
-            </div>
-        </div>
-
-    </header>
-        <ul class="navigation-two">
-            <li class="logo-container"> <img class="logo" src="images/elements/logo.png"> </li>
-            <ul class="navigation-two-text">
+    <div class="d-flex flex-column">
+        <div class="inner-container">
+            <header>
                 <div class="desktop header-container">
-                    
-                   
-                   
+                    <hr>
+                    <div class="header-left">
+                        <span class="home-btn"> <img src="logo.png" style="width: 50px; height: 50px;"> </span>
+
+                    </div>
+                    <div class="header-right">
+                        <span><a href="contact.html" data-vi=" LIÊN HỆ" data-en="CONTACT">CONTACT</a></span>
+                        <span><a href="project.html" data-vi=" DỰ ÁN" data-en="PROJECT">PROJECT</a></span>
+                        <span><a href="about.html" data-vi=" VỀ LINH" data-en="ABOUT">ABOUT</a></span>
+                    </div>
                 </div>
-                <div class="lines" id="line-three"></div>
-                <li> <a class="link contact"  href="contact.html">Let's dive into work</a> </li>
-            </ul>
-        </ul>
-    </nav>
-    <p id="big-text">Tran Ngoc<br>Khanh Linh</p>
-    <div id="details">
+
+                <div class="mobile header-container">
+                    <div class="header-left">
+                    </div>
+                    <div class="header-right">
+                        <input type="checkbox" name="check-menu" id="check-menu" hidden>
+                        <label id="hamburger" for="check-menu">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </label>
+                    </div>
+                </div>
+
+            </header>
+        </div>
+        <p id="big-text">Tran Ngoc<br>Khanh Linh</p>
+        <div class="inner-container" id="details">
             <h3 id="one">Phone</h3>
             <p class="body-text" id="two">(+84) 84 231 0211</p>
             <h3 id="three">Email</h3>
             <a class="body-text" id="four" href="mailto:s3925077@rmit.edu.vn">s3925077@rmit.edu.vn</a>
-    </div>
+        </div>
 
-    <footer>    
-        <p>&copy; 2024 <img a2_im1 > Tran Ngoc Khanh Linh</p>
-    </footer>
+        <footer class="inner-container">
+            <p>&copy; 2024 <img a2_im1> Tran Ngoc Khanh Linh</p>
+        </footer>
+    </div>
 </body>
+
 </html>

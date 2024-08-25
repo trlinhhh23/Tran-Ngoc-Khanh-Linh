@@ -2,11 +2,15 @@
 
 html {
     font-size: 18px;
+    height: 100%;
+    margin: 0;
 }
 body {
+    height: 100%;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("cover\ final.png");
     margin: 0;
-    color:#EBFCFD;
     font-family: Playfair Display;
 }
 
@@ -171,9 +175,6 @@ footer {
 
 
 /*quick contact*/
-body {
-    background: linear-gradient(90deg, orange 2%, rgb(255, 94, 0) 100% );
-}
 .contact {
     font-style: italic;
     font-weight: 900;
@@ -233,10 +234,7 @@ body {
     grid-row-end: 3;
 }
 
-footer {
-    position: absolute;
-    top: 67vw;
-}
+
 
 
 
